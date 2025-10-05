@@ -5,4 +5,4 @@ SELECT
 	p.unit_price
 FROM sql_inventory.products AS p
 WHERE p.quantity_in_stock < 20
-ORDER BY p.quantity_in_stock ASC, p.name ASC;
+ORDER BY p.quantity_in_stock, p.name;
